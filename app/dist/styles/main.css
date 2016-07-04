@@ -21,6 +21,11 @@ h6 {
     font-weight: 700;
 }
 
+
+.text-green{
+    color: #33691e;
+}
+
 .navbar{
     border-color: none;
 }
@@ -43,7 +48,7 @@ h6 {
     padding-bottom: 30px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/photo-tourist-ok.jpg) no-repeat center center;
+    background: url(../img/universe1.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -185,3 +190,413 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+
+.img-centered{
+    margin:0 auto
+}
+.bg-light-gray{
+    background-color:#f7f7f7
+}
+.bg-darkest-gray{
+    background-color:#222
+}
+header .intro-text{
+    padding-top:100px;
+    padding-bottom:50px
+}
+header .intro-text .intro-lead-in{
+    font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style:italic;
+    font-size:22px;
+    line-height:22px;
+    margin-bottom:25px
+}
+header .intro-text .intro-heading{
+    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:50px;
+    line-height:50px;
+    margin-bottom:25px
+}
+
+@media (min-width:768px){
+    header .intro-text{
+        padding-top:300px;padding-bottom:200px
+        }
+    header .intro-text .intro-lead-in{
+        font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-style:italic;
+        font-size:40px;
+        line-height:40px;
+        margin-bottom:25px
+        }
+    header .intro-text .intro-heading{
+        font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-transform:uppercase;
+        font-weight:700;
+        font-size:75px;
+        line-height:75px;
+        margin-bottom:50px
+        }
+}
+
+section{
+    padding:100px 0
+}
+
+section h2.section-heading{
+    font-size:40px;
+    margin-top:0;
+    margin-bottom:50px;
+    color: #33691e;
+}
+
+section h3.section-subheading{
+    font-size:16px;font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform:none;
+    font-style:italic;
+    font-weight:400;
+    margin-bottom:75px
+}
+
+@media (min-width:768px){
+    section{
+        padding:50px 0
+        }
+    }
+
+.service-heading{
+    margin:15px 0;
+    text-transform:none
+}
+
+.timeline{
+    list-style:none;
+    padding:0;
+    position:relative
+}
+
+.timeline:before{
+    top:0;
+    bottom:0;
+    position:absolute;
+    content:"";
+    width:2px;
+    background-color:#f1f1f1;
+    left:40px;
+    margin-left:-1.5px
+}
+
+.timeline>li{
+    margin-bottom:50px;
+    position:relative;
+    min-height:50px
+}
+
+.timeline>li:before,.timeline>li:after{
+    content:" ";
+    display:table
+}
+
+.timeline>li:after{
+    clear:both
+}
+
+.timeline>li .timeline-panel{
+    width:100%;float:right;
+    padding:0 20px 0 100px;
+    position:relative;
+    text-align:left
+}
+
+.timeline>li .timeline-panel:before{
+    border-left-width:0;
+    border-right-width:15px;
+    left:-15px;
+    right:auto
+}
+
+.timeline>li .timeline-panel:after{
+    border-left-width:0;
+    border-right-width:14px;
+    left:-14px;right:auto
+}
+
+.timeline>li .timeline-image{
+    left:0;
+    margin-left:0;
+    width:80px;
+    height:80px;
+    position:absolute;
+    z-index:100;
+    background-color:#33691e;
+    color:#fff;
+    border-radius:100%;
+    border:7px solid #f1f1f1;
+    text-align:center
+}
+
+.timeline>li .timeline-image h4{
+    font-size:2em;
+    margin-top:12px;
+    line-height:14px
+}
+
+.timeline>li.timeline-inverted>.timeline-panel{
+    float:right;
+    text-align:left;
+    padding:0 20px 0 100px
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before{
+    border-left-width:0;
+    border-right-width:15px;
+    left:-15px;
+    right:auto
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after{
+    border-left-width:0;
+    border-right-width:14px;
+    left:-14px;
+    right:auto
+}
+
+.timeline>li:last-child{
+    margin-bottom:0
+}
+
+.timeline .timeline-heading h4{
+    margin-top:0;
+    color:inherit;
+    font-size: 2em;
+}
+
+.timeline .timeline-heading h4.subheading{
+    text-transform:none;
+}
+
+.timeline .timeline-body>p,.timeline .timeline-body>ul{
+    margin-bottom:0;
+    font-size: 1.2em;
+}
+
+@media (min-width:768px){
+    .timeline:before{
+        left:50%
+        }
+    .timeline>li{
+        margin-bottom:100px;
+        min-height:100px
+        }
+    .timeline>li .timeline-panel{
+        width:41%;
+        float:left;
+        padding:0 20px 20px 30px;
+        text-align:right
+        }
+    .timeline>li .timeline-image{
+        width:100px;
+        height:100px;
+        left:50%;
+        margin-left:-50px
+        }
+    .timeline>li .timeline-image h4{
+        font-size:10px;
+        margin-top:16px;
+        line-height:18px
+        }
+    .timeline>li.timeline-inverted>.timeline-panel{
+        float:right;
+        text-align:left;
+        padding:0 30px 20px 20px
+        }
+}
+
+@media (min-width:992px){
+    .timeline>li{
+        min-height:150px
+        }
+    .timeline>li .timeline-panel{
+        padding:0 20px 20px
+        }
+    .timeline>li .timeline-image{
+        width:150px;
+        height:150px;
+        margin-left:-75px
+        }
+    .timeline>li .timeline-image h4{
+        font-size:18px;
+        margin-top:30px;
+        line-height:26px
+        }
+    .timeline>li.timeline-inverted>.timeline-panel{
+        padding:0 20px 20px
+        }
+}
+
+@media (min-width:1200px){
+    .timeline>li{
+        min-height:170px
+        }
+    .timeline>li .timeline-panel{
+        padding:0 20px 20px 100px
+        }
+    .timeline>li .timeline-image{
+        width:170px;
+        height:170px;
+        margin-left:-85px
+        }
+    .timeline>li .timeline-image h4{
+        margin-top:40px
+        }
+    .timeline>li.timeline-inverted>.timeline-panel{
+        padding:0 100px 20px 20px
+        }
+}
+
+
+
+
+hr {
+  height: 0;
+  margin: 3rem 0;
+  border: 0;
+  border-top: 1px dashed #ddd;
+}
+
+.wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrap-inner {
+  width: 300%;
+  
+  /* css transitions */
+  transition: transform 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  transform: translateX(0);
+  -webkit-backface-visibility: hidden;
+}
+
+.section {
+  margin: 0;
+  width: 33%;
+  height: 100%;
+  padding: 1rem;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.alpha {
+  color: #333;
+}
+
+.form {
+  min-width: 30rem;
+  background: #fff;
+  border-radius: 4px;
+  padding: 2rem;
+  text-align: center;
+  margin: 5em auto;
+  display: inline-block;
+}
+
+
+/* Inputs */
+
+.form-wrap {
+  margin: 0;
+  padding: 1rem 0;
+}
+.form-wrap .inputbox {
+  border: 1px solid #eaedf2;
+  border-radius: 3px;
+  padding: 1rem 0 1rem 3.2rem;
+  width: 44%;
+  outline: none;
+  margin-bottom: 2rem;
+  font-family: inherit;
+}
+.form--login .form-wrap .inputbox {
+  width: 88%;
+}
+.form-wrap .name {
+  background: #eaedf2 url(img/user.png) 10px 13px no-repeat;
+}
+.form-wrap .email {
+  background: #eaedf2 url(img/email.png) 10px 15px no-repeat;
+}
+.form-wrap .password {
+  background: #eaedf2 url(img/password.png) 10px 10px no-repeat;
+}
+.form-wrap a.button {
+  background: none repeat scroll 0 0 #33691e;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+.form-wrap .button:hover {
+  background :#244c15;
+}
+.form-wrap a.button > i {
+  font-size: 2rem;
+}
+
+.scroll {
+  color: #555;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.scroll:hover {
+  color: #222;
+}
+
+
+/* Social Buttons */
+
+.social {
+  margin: 4rem 0 1rem;
+}
+.social a {
+  display: inline-block;
+  min-width: 6.2rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 1em 2em;
+}
+.social a.facebook {
+  background: #3b5998;
+}
+.social a.facebook:hover {
+  background: #37528c;
+  color: #fff;
+}
+
+/* Goto */
+
+.goto-2 {
+  transform: translateX(-33%);
+}
+.goto-3 {
+  transform: translateX(-66%);
+}
+
+
+.bg-form{
+    background-color: #e6e6e6;
+}
+
+
